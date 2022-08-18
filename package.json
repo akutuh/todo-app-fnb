@@ -1,0 +1,28 @@
+{
+  "name": "todo-app-backend",
+  "version": "0.0.1",
+  "description": "todo-app-backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akutuh/todo-app-backend.git"
+  },
+  "keywords": [
+    "backend",
+    "Node",
+    "Express"
+  ],
+  "author": "Aku Tuhkanen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akutuh/todo-app-backend/issues"
+  },
+  "homepage": "https://github.com/akutuh/todo-app-backend#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
