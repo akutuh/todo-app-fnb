@@ -1,4 +1,5 @@
 import axios from 'axios'
+axios.defaults.baseURL = 'http://localhost:3004'
 const baseUrl = '/api/todos'
 
 const getAll = () => {
