@@ -19,6 +19,6 @@ app.use(cors());
 app.use(express.static("build"));
 app.use(express.json());
 
-app.use("/api/todos", rodosRouter);
+app.use("/api/todos", todosRouter);
 
 module.exports = app;
