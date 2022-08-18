@@ -1,0 +1,26 @@
+{
+  "name": "todo-app-fnb",
+  "version": "1.0.0",
+  "description": "todo-app front and backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd api && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akutuh/todo-app-fnb.git"
+  },
+  "author": "Aku Tuhkanen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akutuh/todo-app-fnb/issues"
+  },
+  "homepage": "https://github.com/akutuh/todo-app-fnb#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  }
+}
