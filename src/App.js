@@ -11,10 +11,14 @@ function App() {
     setTodos(todos.concat(todoObject))
   }
 
+  const deleteTodo = (todoObject) => {
+    setTodos(todos.filter((todo) => todo.id !== todoObject.id))
+  }
+
   return (
     <div className="App">
       <TodoForm createTodo={addTodo} />
-      <Todos todos={todos} />
+      <Todos todos={todos} deleteTodo={deleteTodo} />
     </div>
   )
 }
